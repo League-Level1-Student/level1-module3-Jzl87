@@ -60,6 +60,8 @@ public class Canvas {
 
         // Must place after adding new circle
         // no size - 1 to number starting from 1
+      
+        
         final int num = circles.size();
         
         JSlider colorSlider = new JSlider(SwingConstants.HORIZONTAL, 0, 255, 100);
